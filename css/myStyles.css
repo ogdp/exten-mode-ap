@@ -1,0 +1,25 @@
+.close-modal-bottom,
+.slide-bar-left-live.sticky,
+.slide-bar-right-live.sticky,
+.button-bottom-center-append-custom.button-in-player-box,
+.banner-bottom-append-custom,
+.logo-top-right-append-custom,
+.jw-logo.jw-logo-bottom-right.jw-reset,
+.menu-right-slide,
+.adHTML2,
+.adHTML2.hide-mobi,
+.modal-ads-body,
+.modal-ads,
+.adHTML3,
+.footer-banner.hide-mobi,
+.slide-bar-right.sticky,
+.slide-bar-left.sticky {
+  display: none !important;
+}
+.container,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  max-width: 1420px !important;
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Show lịch học dễ nhìn hơn",
+  "version": "1.0",
+  "description": "Hiển thị lịch học",
+  "manifest_version": 2,
+  "icons": {
+    "18": "logo.png",
+    "32": "logo.png",
+    "48": "logo.png",
+    "128": "logo.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://ap.poly.edu.vn/sinh-vien/lich-hoc*"],
+      "css": ["css/myStyles.css"],
+      "js": ["js/customs.js"]
+    }
+  ]
+}
