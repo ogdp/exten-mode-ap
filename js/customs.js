@@ -1,4 +1,5 @@
 function auto_mode_theme() {
+  // console.log("Lần" + new Date().getTime());
   const row_le = document.getElementsByClassName("odd");
   const row_chan = document.getElementsByClassName("even");
   const arr_row_le = [...row_le];
@@ -62,5 +63,10 @@ function auto_mode_theme() {
     }
   }
 }
-// auto_mode_theme();
-setInterval(auto_mode_theme, 500);
+auto_mode_theme();
+// setInterval(auto_mode_theme, 500);
+document.querySelector(
+  "select.custom-select.custom-select-sm.form-control.form-control-sm"
+).onchange = () => {
+  auto_mode_theme();
+};
